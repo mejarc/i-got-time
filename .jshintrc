@@ -1,0 +1,28 @@
+// based on jQuery Core & Elijah Manor (http://www.elijahmanor.com/control-the-complexity-of-your-javascript-functions-with-jshint/)
+{
+    "globals": {
+        "console": false,
+        "jQuery": false,
+        "_": false
+    },
+    "maxparams": 5,
+    "maxdepth": 5,
+    "maxstatements": 25,
+    "maxcomplexity": 10,
+    "es5": true,
+    "boss": true,
+    "curly": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "expr": true,
+    "immed": true,
+    "noarg": true,
+    "onevar": true,
+    "quotmark": "double",
+    "smarttabs": true,
+    "strict": true,
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+    "node": true
+}

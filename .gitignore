@@ -2,5 +2,5 @@ node_modules
 browser-bundle.js
 npm-debug.log
 *~
-lib/*
-!lib/.gitkeep
+/js/bundle.js
+/js/bundle.min.js
