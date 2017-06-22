@@ -13,10 +13,6 @@ I'd long mourned the removal of To-->Done from the web. Meanwhile, I procrastina
 
 Of the JavaScript frameworks, ReactJS had greatest appeal--I wasn't eager to take sides in the Ember vs. Angular debate, and I felt intrigued by [React Native](https://facebook.github.io/react-native/). Recreating a beloved Rails-based utility in this most modern of JavaScript frameworks seemed an efficient use of time.
 
-Going from Rails to Flux isn't painless. There are few points of similarity between Rails and Flux: Flux stores are almost like Rails models, and React components are somewhat like Rails views, and the Flux dispatcher has some resemblance to the Rails router--although not enough to make developing them possible without a Flux tutorial, or three, adjacent to the text editor.
-
-What *is* impressive about React/Flux is how quickly a reliable corpus of blog posts, conference slide decks, and other documentation has been established: you're never without company or relief, even when completely bewildered. 
-
 ## How to install
 
 Either [download the source code archive](https://github.com/mejarc/i-got-time/archive/master.zip), then double-click the downloaded file to install to your hard drive.
@@ -50,8 +46,3 @@ Please submit your report or request to this application's [GitHub Issues page](
 ## Acknowledgements
 - The developer of To-->Done, who might have been [Jason Katzer](http://www.whois.com/whois/todoneapp.com)
 
-## Links
-- [Tutorial - Todo List](https://facebook.github.io/flux/docs/todo-list.html)
-- [Flux TodoMVC Example](https://github.com/facebook/flux/tree/master/examples/flux-todomvc)
-- Haberman, Josh. ['React Demystified'](http://blog.reverberate.org/2014/02/react-demystified.html). 2014
-- [Jest](https://facebook.github.io/jest/)
