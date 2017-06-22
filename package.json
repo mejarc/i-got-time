@@ -1,36 +1,20 @@
 {
   "name": "i-got-time",
   "version": "0.1.0",
-  "description": "A recreation of To->Done App in React/Flux",
-  "main": "js/app.js",
-  "repository": "...",
+  "private": true,
   "dependencies": {
-    "flux": "^2.0.1",
-    "keymirror": "~0.1.0",
-    "object-assign": "^1.0.0",
-    "react": "~0.12.0"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.0"
   },
   "devDependencies": {
-    "browserify": "^6.2.0",
-    "envify": "",
-    "jest-cli": "~0.1.17",
-    "reactify": "^0.15.2",
-    "uglify-js": "~2.4.15",
-    "watchify": "^2.1.1"
+    "react-scripts": "1.0.7"
   },
   "scripts": {
-    "start": "watchify -o js/bundle.js -v -d js/app.js",
-    "build": "browserify . -t [envify --NODE_ENV production] | uglifyjs -cm > js/bundle.min.js",
-    "test": "jest"
-  },
-  "author": "Melanie Archer",
-  "browserify": {
-    "transform": [
-      "reactify",
-      "envify"
-    ]
-  },
-  "jest": {
-    "rootDir": "./js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
