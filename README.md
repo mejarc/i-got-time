@@ -24,7 +24,11 @@ Or git clone:
 ```
 
 ## Usage
-1. Open `i-got-time/index.html` in your browser.
+1. Start the application locally:
+```
+    $ npm start
+```
+1. Open `http://localhost:3000` in your browser.
 1. Choose whether to create a task, or to complete one.
   ![screenshot](http://i.imgur.com/G9ZOsFn.png?1)
 1. Follow through!
@@ -45,4 +49,5 @@ Please submit your report or request to this application's [GitHub Issues page](
 
 ## Acknowledgements
 - The developer of To-->Done, who might have been [Jason Katzer](http://www.whois.com/whois/todoneapp.com)
+- Raja Rao DV, author of ["Step by Step Guide to Building React Redux Apps"](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a)
 
